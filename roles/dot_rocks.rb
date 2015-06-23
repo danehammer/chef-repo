@@ -5,7 +5,7 @@ default_attributes(
         "repository" => "git://github.com/danehammer/dot_rocks.git",
         "deploy_dir" => "/var/www/dot_rocks",
         "docroot" => "/var/www/dot_rocks/current",
-        "server_name" => "104.236.110.78"
+        "server_name" => "chefKCDC"
     }
 )
 
