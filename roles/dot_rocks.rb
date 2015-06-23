@@ -9,4 +9,5 @@ default_attributes(
     }
 )
 
-run_list "recipe[sinatra_app::deploy]"
+run_list "recipe[digitalocean_swap]",
+         "recipe[sinatra_app::deploy]"
